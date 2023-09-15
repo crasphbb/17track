@@ -1,0 +1,25 @@
+# 17TRACK
+17track的简单api，v2.1版本
+
+### 安装
+```
+composer require crasp/17track
+```
+
+### 使用
+
+```
+$apiKey = '';
+$host = '';
+
+
+$track = new \Crasp\Seventeentrack\Track($apiKey,$host);
+try {
+    $result = $trustpilot->register('1241546', 1548, [
+    'tag' => 'aaa'
+    ]);
+    print_r($result);
+} catch (\Exception $exception) {
+    return $exception->getMessage();
+}
+```
