@@ -1,0 +1,19 @@
+{
+    "name": "crasp/17track",
+    "description": "17track api for v2.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Crasp\\Seventeentrack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huangbinbin",
+            "email": "huangbinbin@nextmar.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
